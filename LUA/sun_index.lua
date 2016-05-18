@@ -4,7 +4,7 @@ System.createDirectory("/MUSIC")
 System.createDirectory("/DCIM")
 
 -- Open config file and system files
-dofile("/config.sun")
+dofile("/config.moon")
 theme_dir = main_dir.."/themes/"..theme
 Graphics.init()
 bg = Graphics.loadImage(theme_dir.."/images/bg.jpg")
